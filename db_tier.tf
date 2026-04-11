@@ -34,7 +34,7 @@ resource "aws_db_instance" "terradb" {
   allocated_storage      = 20
   engine                 = "mysql"
   instance_class         = "db.t3.micro"
-  db_name                = "terradb"
+  db_name                = "lksdb"
   username               = "admin"
   password               = "admin12345"
   db_subnet_group_name   = aws_db_subnet_group.main.name

@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "web-container",
-            "image": "725301416406.dkr.ecr.ap-southeast-1.amazonaws.com/latihan-ecs-repo:latest",
+            "image": "725301416406.dkr.ecr.us-west-2.amazonaws.com/latihan-ecs-repo:latest",
             "portMappings": [
                 {
                     "containerPort": 80,
